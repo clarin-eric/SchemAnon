@@ -19,7 +19,7 @@ Build
 
 ```sh
 mvn install:install-file -Dfile=lib/org/eclipse/wst/org.eclipse.wst.xml.xpath2.processor/1.2.0/org.eclipse.wst.xml.xpath2.processor-1.2.0.jar -DgroupId=org.eclipse.wst -DartifactId=org.eclipse.wst.xml.xpath2.processor -Dversion=1.2.0 -Dpackaging=jar
-mvn install:install-file -Dfile=lib/xerces/xercesImpl/2.12.0-xml-schema-1.1/xercesImpl-2.12.0-xml-schema-1.1.jar -DpomFile=lib/xerces/xercesImpl/2.12.0-xml-schema-1.1/xercesImpl-2.12.0-xml-schema-1.1.pom -DgroupId=xerces -DartifactId=xercesImpl -Dversion=2.12.0-xml-schema-1.1 -Dpackaging=jar
+mvn install:install-file -Dfile=lib/xerces/xercesImpl/2.12.1-xml-schema-1.1/xercesImpl-2.12.1-xml-schema-1.1.jar -DpomFile=lib/xerces/xercesImpl/2.12.1-xml-schema-1.1/xercesImpl-2.12.1-xml-schema-1.1.pom -DgroupId=xerces -DartifactId=xercesImpl -Dversion=2.12.1-xml-schema-1.1 -Dpackaging=jar
 mvn clean install
 ```
 
